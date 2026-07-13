@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
+
+:root {
+--Porcelain: #fbfef9;
+--Grey_Olive: #7e8987;
+--Regal_Navy: #083d77;
+--Deep_Space_Blue: #131824;
+--Carmine: #bf1a2f;
+}
+
+.inicio header {
+  width: 100vw; /* Ocupa 100% da largura da janela de visualização */
+  background-color: #8ab4f8; /* Sua cor azul */
+}
+
+body {background: linear-gradient(#f8f8ff);
+    background-size: 100% 900px ;
+    background-repeat: no-repeat;
+    background-color: #f8f8ff ;
+
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    border-radius: 10px;
+    color: var(--Deep_Space_Blue);
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: var(--Deep_Space_Blue);
+    
+}
+
+li {
+    font-family: cursive;
+    color: var(--Deep_Space_Blue);
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--Deep_Space_Blue);
+    background-color: #4e86ff;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--Deep_Space_Blue);
+}
+
+
+
+strong {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Deep_Space_Blue);
+}
+
+a {
+text-decoration: none;
+color: #fbfef9;
+background-color: #bf1a80;
+border-radius: 5px;
+font-size: 20px;
+}
+
+a:hover {
+color: #d9dbd7;    
+background-color: #94147f;
+box-shadow: 0 0 5px #282435;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    color: var(--Porcelain);
+}
+
+.menu-horizontal {
+    justify-content: center;
+    display: flex;          
+  list-style-type: none;  
+  padding: 0;             
+  margin: 0;              
+  background-color: #3735b9; 
+  padding: 15px 0;           
+  margin-top: 5px;;
+}
+
+.menu-horizontal li {
+  margin-right: 10px; 
+  margin: 0 12px;
+}
+
+.menu-horizontal li a {
+  display: block;
+  padding: 10px 20px;      
+  background-color: #c71585; 
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;       
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inicio {
+  background-color: #8ab4f8; 
+  padding: 40px 20px;       
+  text-align: center;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 8px;       /* Opcional: suaviza os cantos da imagem da Expotec */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Opcional: sombra leve para dar profundidade */
+}
+
