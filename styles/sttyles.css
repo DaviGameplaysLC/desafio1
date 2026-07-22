@@ -1,122 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
 
-:root {
---Porcelain: #fbfef9;
---Grey_Olive: #7e8987;
---Regal_Navy: #083d77;
---Deep_Space_Blue: #131824;
---Carmine: #bf1a2f;
-}
-
-.inicio header {
-  width: 100vw; /* Ocupa 100% da largura da janela de visualização */
-  background-color: #8ab4f8; /* Sua cor azul */
-}
-
-body {background: linear-gradient(#f8f8ff);
-    background-size: 100% 900px ;
-    background-repeat: no-repeat;
-    background-color: #f8f8ff ;
-
-}
-
-h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
-    border-radius: 10px;
-    color: var(--Deep_Space_Blue);
-}
-
-p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
-    color: var(--Deep_Space_Blue);
-    
-}
-
-li {
-    font-family: cursive;
-    color: var(--Deep_Space_Blue);
-}
-
-h2 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--Deep_Space_Blue);
-    background-color: #4e86ff;
-}
-
-h3 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--Deep_Space_Blue);
-}
-
-
-
-strong {
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--Deep_Space_Blue);
-}
-
-a {
-text-decoration: none;
-color: #fbfef9;
-background-color: #bf1a80;
-border-radius: 5px;
-font-size: 20px;
-}
-
-a:hover {
-color: #d9dbd7;    
-background-color: #94147f;
-box-shadow: 0 0 5px #282435;
-}
-
-h3 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
-    color: var(--Porcelain);
-}
-
-.menu-horizontal {
-    justify-content: center;
-    display: flex;          
-  list-style-type: none;  
-  padding: 0;             
-  margin: 0;              
-  background-color: #3735b9; 
-  padding: 15px 0;           
-  margin-top: 5px;;
-}
-
-.menu-horizontal li {
-  margin-right: 10px; 
-  margin: 0 12px;
-}
-
-.menu-horizontal li a {
-  display: block;
-  padding: 10px 20px;      
-  background-color: #c71585; 
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;  
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;       
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --Porcelain: #fbfef9;
+  --Grey_Olive: #7e8987;
+  --Regal_Navy: #083d77;
+  --Deep_Space_Blue: #131824;
+  --Carmine: #bf1a2f;
+  --Accent_Blue: #4e86ff;
+  --Light_Bg: #c4daff;
+}
+
+
+body {
+  background-color: #f8f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--Deep_Space_Blue);
+  line-height: 1.6;
+}
+
+h1 {
+  color: var(--Deep_Space_Blue);
+  margin-bottom: 15px; 
+}
+
+h2 {
+  color: var(--Porcelain);
+  background-color: var(--Regal_Navy);
+  padding: 10px 15px; 
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border-left: 5px solid var(--Carmine); 
+}
+
+h3 {
+  color: var(--Deep_Space_Blue);
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--Deep_Space_Blue);
+  margin-bottom: 15px; 
+}
+
+strong {
+  font-family: inherit;
+  color: var(--Carmine);
+}
+
+li {
+  color: var(--Deep_Space_Blue);
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--Porcelain);
+  background-color: var(--Carmine);
+  padding: 8px 16px; 
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #94147f;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
 .inicio {
   background-color: #8ab4f8; 
-  padding: 40px 20px;       
+  padding: 40px 20px; 
   text-align: center;
+  width: 100%;
+  border-bottom: 3px solid var(--Regal_Navy); 
+}
+
+.inicio header {
+  width: 100%; 
 }
 
 img {
   margin-top: 20px;
-  border-radius: 8px;       /* Opcional: suaviza os cantos da imagem da Expotec */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Opcional: sombra leve para dar profundidade */
+  margin-bottom: 10px;
+  padding: 5px; 
+  background-color: white;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  max-width: 100%; 
+  height: auto;
 }
 
+section {
+  background-color: var(--Light_Bg);
+  padding: 35px; 
+  margin: 30px auto; 
+  border-radius: 8px;
+  border: 2px solid var(--Regal_Navy); 
+  width: 90%;
+  max-width: 900px;
+}
+
+
+.menu-horizontal {
+  width: 100%; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  list-style-type: none; 
+  background-color: var(--Deep_Space_Blue); 
+  padding: 15px 0; 
+  margin-top: 0;
+  border-bottom: 2px solid var(--Carmine);
+}
+
+.menu-horizontal li {
+  margin: 0 10px; 
+}
+
+.menu-horizontal li a {
+  display: block;
+  padding: 10px 20px; 
+  background-color: var(--Carmine); 
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 6px; 
+  font-weight: 600; 
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.menu-horizontal li a:hover {
+  background-color: #94147f;
+  transform: translateY(-2px);
+}
